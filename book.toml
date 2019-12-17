@@ -1,0 +1,17 @@
+[book]
+authors = ["一般社団法人日本CTO協会"]
+language = "js"
+multilingual = false
+src = "src"
+title = "DX Criteria v201912- 「２つのDX」とデジタル経営のガイドライン "
+description = "Developer eXperince and Digital Transformation"
+
+[build]
+build-dir = "docs"
+
+[output.html]
+default-theme = "Navy"
+theme = "my-theme"
+additional-css = ["asset/theme/custom.css"]
+additional-js = ["asset/theme/custom.js"]
+git-repository-url="https://github.com/cto-a/dxcriteria"
