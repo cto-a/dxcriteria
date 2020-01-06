@@ -36,5 +36,5 @@ DX Criteriaのご利用に関して、主な使い方は次の３つです。
 ![](./image/score.png)
 
 ### ご利用上の注意
-
+活用に関して、以下の点にご注意ください。
 ![](./image/caution.png)
