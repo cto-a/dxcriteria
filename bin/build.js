@@ -9,7 +9,6 @@ var THEMA_MAP = {
 };
 
 
-
 /*
 
 */
@@ -17,7 +16,7 @@ var checkList = require("../checklist.json");
 
 var summary = [
     "# Summary",
-
+    String(fs.readFileSync("./src/explain/index.md")),
 ];
 
 Object.keys(checkList).forEach(themeKey => {
@@ -36,7 +35,6 @@ ${e.desc}
 
 ### メトリクスの計測
 + ${e.metrics}
-
 
 ### 学習と改善
 + ${e.learning}

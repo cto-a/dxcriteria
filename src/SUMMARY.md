@@ -1,4 +1,10 @@
 # Summary
+
+# [DX Criteriaとは](./explain/about.md)
+# [DX Criteriaの構造](./explain/structure.md)
+# [DX Criteriaの使い方](./explain/usage.md)
+
+
 + [チームの評価項目](./explain/team.md)
   + [チーム構成と権限委譲](./team_1.md)
   + [チームビルディング](./team_2.md)

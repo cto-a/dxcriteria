@@ -10,8 +10,7 @@ description = "Developer eXperince and Digital Transformation"
 build-dir = "docs"
 
 [output.html]
-default-theme = "Navy"
-theme = "my-theme"
+default-theme = "Light"
 additional-css = ["asset/theme/custom.css"]
 additional-js = ["asset/theme/custom.js"]
 git-repository-url="https://github.com/cto-a/dxcriteria"
