@@ -16,21 +16,25 @@ DX Criteriaのご利用に関して、主な使い方は次の３つです。
 
 
 ## アセスメントシートの使い方
-![](/image/access.png)
+![](./image/access.png)
 
 [簡易アセスメントシート dxcriteria-assessment ](https://docs.google.com/spreadsheets/d/1Wnyz6vZVrVnkbteQsrJ7IROFaiFb6ocDLocG2KzzWJs/edit?usp=sharing)にアクセスし、シートをご自身・自社のGoogle Driveにコピーしてご利用ください。
 
 ## アセスメントシートの記入方法
 
 ### 各項目に対して回答は４種類
-![](/image/answer.png)
+![](/.image/answer.png)
 
 戦略上あえて取り入れていない場合や実施しようとしたけれども不完全といったように、YESともNOとも言い切れない項目も
 あるかと思います。このような場合価値中立的に0.5点換算します。あまりにこのような項目が多い場合には、ベストプラクティスから離れてしまっていたり、習慣が定着しないなどの組織的問題がはらんでいる可能性があるため注意は必要です。
 
 ### シートへの記入
-![](/image/sheet.png)
+![](./image/sheet.png)
 回答用シートに１つ１つ項目を確認しながら記入を行ってください。
 
 ### 評価結果の確認
-![](/image/score.png)
+![](./image/score.png)
+
+### ご利用上の注意
+
+![](./image/caution.png)

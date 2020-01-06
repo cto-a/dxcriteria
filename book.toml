@@ -13,4 +13,7 @@ build-dir = "docs"
 default-theme = "Light"
 additional-css = ["asset/theme/custom.css"]
 additional-js = ["asset/theme/custom.js"]
-git-repository-url="https://github.com/cto-a/dxcriteria"
+git-repository-url = "https://github.com/cto-a/dxcriteria"
+
+[output.html.search]
+enable = false

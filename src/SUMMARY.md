@@ -1,11 +1,11 @@
 # Summary
 
-# [DX Criteriaとは](./explain/about.md)
-# [DX Criteriaの構造](./explain/structure.md)
-# [DX Criteriaの使い方](./explain/usage.md)
+# [DX Criteriaとは](./about.md)
+# [DX Criteriaの構造](./structure.md)
+# [DX Criteriaの使い方](./usage.md)
 
 
-+ [チームの評価項目](./explain/team.md)
++ [チームの評価項目](./team.md)
   + [チーム構成と権限委譲](./team_1.md)
   + [チームビルディング](./team_2.md)
   + [心理的安全性](./team_3.md)
@@ -15,7 +15,7 @@
   + [ふりかえり習慣](./team_7.md)
   + [バリューストリーム最適化](./team_8.md)
 
-+ [システムの評価項目](./explain/system.md)
++ [システムの評価項目](./system.md)
   + [バージョン管理](./system_1.md)
   + [ソースコードの明確さ](./system_2.md)
   + [継続的インテグレーション](./system_3.md)
@@ -25,7 +25,7 @@
   + [システムモニタリング](./system_7.md)
   + [セキュリティシフトレフト](./system_8.md)
 
-+ [データ駆動の評価項目](./explain/data.md)
++ [データ駆動の評価項目](./data.md)
   + [顧客接点のデジタル化](./data_1.md)
   + [事業活動データの収集](./data_2.md)
   + [データ蓄積・分析基盤](./data_3.md)
@@ -35,7 +35,7 @@
   + [マーケティング自動化](./data_7.md)
   + [自動的な意思決定](./data_8.md)
 
-+ [デザイン思考の評価項目](./explain/design.md)
++ [デザイン思考の評価項目](./design.md)
   + [ペルソナの設定](./design_1.md)
   + [顧客体験](./design_2.md)
   + [ユーザーインタビュー](./design_3.md)
@@ -45,7 +45,7 @@
   + [ユーザビリティテスト](./design_7.md)
   + [プロダクトマネジメント](./design_8.md)
 
-+ [コーポレートの評価項目](./explain/corporate.md)
++ [コーポレートの評価項目](./corporate.md)
   + [スパン・オブ・コントロール](./corporate_1.md)
   + [開発者環境投資](./corporate_2.md)
   + [コミュニケーションツール](./corporate_3.md)

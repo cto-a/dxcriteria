@@ -1,4 +1,4 @@
-# dxcriteria - 「２つのDX」とデジタル時代の経営ガイドライン
+# DX Criteria - 「２つのDX」とデジタル時代の経営ガイドライン
 
 ## DX Criteria の目指すところ
 
@@ -12,25 +12,14 @@
 
 私たちは、「２つのDX」を一体で捉えた基準をつくり、その普及をしていきたいと考えています。
 
-## DX Criteria のポイント
-DX Criteriaの目的 は 「超高速な事業仮説検証能力を得ること」です。
-そのために、必要な様々な組織習慣や能力について以下のポイントに注目してつくられました。
-
-| 項目 | 説明 |
-|:--|:--|
-| 組織文化と「見えない」投資 | 高速な開発を行う組織には一度体験しないと価値がわかりにくい投資や習慣があります。この説明コストの高さを軽減し、導入を促します。 |
-| タスク型ダイバーシティ | 事業価値あるサービスが実現するためには様々なデジタル人材と既存事業人材の相互理解と共創関係が必要で、この進展を促します。 |
-| メリハリのあるIT戦略 | 標準化・コモディティ化した領域については外部サービスを利用し、競争領域に特化して内製化をすすめるためのメリハリのある投資を促します。 |
-| 組織学習とアンラーニング | 新しいツールや潮流に挑戦するための組織学習と、時代が変わってしまった習慣のアンラーニング(学びほぐし）を促します。 |
-| 自己診断と市場比較 | 関連するレポートと自己診断によって競合状況との差を認識しやすくし、自社の強み弱みを理解して段階的に変化できるように促します。 |
-
 ## Usage/Download
 
-[DX Criteria v201912](https://drive.google.com/drive/u/3/folders/1Kp7DTrpMIfXBoym1U0tB3VZKpyF8AmGc)
+活用方法・使い方については
 
-+ [調査項目と説明資料 dxcriteria201912.pdf](https://drive.google.com/file/d/1ifLKMVIr7IBCARcc8uUa4e0GxsEZ3aIN/view?usp=sharing)
-+ [簡易アセスメントシート dxcriteria-assessment ](https://docs.google.com/spreadsheets/d/1Wnyz6vZVrVnkbteQsrJ7IROFaiFb6ocDLocG2KzzWJs/edit?usp=sharing)
++ [公式ページ](https://cto-a.github.io/dxcriteria/)
++ [説明資料](https://github.com/cto-a/dxcriteria/blob/master/asset/image/dxcriteria201912.pdf)
 
+を御覧ください。
 
 ## DX Criteria の調査項目の構造
 ５つのテーマ、８つのカテゴリ、8つの項目で全320個のチェック構造を持っています。

@@ -1,31 +1,27 @@
-var fs = require("fs");
+var fs = require('fs');
 
 var THEMA_MAP = {
-    team : "チーム",
-    system : "システム",
-    data : "データ駆動",
-    design : "デザイン思考",
-    corporate : "コーポレート"
+	team: 'チーム',
+	system: 'システム',
+	data: 'データ駆動',
+	design: 'デザイン思考',
+	corporate: 'コーポレート'
 };
-
 
 /*
 
 */
-var checkList = require("../checklist.json");
+var checkList = require('../checklist.json');
 
-var summary = [
-    "# Summary",
-    String(fs.readFileSync("./src/explain/index.md")),
-];
+var summary = [ '# Summary', String(fs.readFileSync('./src/index.md')) ];
 
-Object.keys(checkList).forEach(themeKey => {
-    var themeList = checkList[themeKey];
-    var themeJa   = THEMA_MAP[themeKey];
-    summary.push(`+ [${themeJa}の評価項目](./explain/${themeKey}.md)`);
+Object.keys(checkList).forEach((themeKey) => {
+	var themeList = checkList[themeKey];
+	var themeJa = THEMA_MAP[themeKey];
+	summary.push(`+ [${themeJa}の評価項目](./${themeKey}.md)`);
 
-    themeList.forEach(e => {
-        var md = `
+	themeList.forEach((e) => {
+		var md = `
 # [${themeJa} 0${e.id}] ${e.type} 
 
 ## なぜ、重要か。
@@ -49,11 +45,11 @@ ${e.desc}
 + ${e.antipattern2}
 + ${e.antipattern3}
             `;
-        summary.push(`  + [${e.type}](./${e.theme}_${e.id}.md)`);
-        fs.writeFileSync(`./src/${e.theme}_${e.id}.md`,md);
-        console.log(`Creating ${e.theme}_${e.id}.md`);
-    });
-    summary.push("");
+		summary.push(`  + [${e.type}](./${e.theme}_${e.id}.md)`);
+		fs.writeFileSync(`./src/${e.theme}_${e.id}.md`, md);
+		console.log(`Creating ${e.theme}_${e.id}.md`);
+	});
+	summary.push('');
 });
-console.log("Creating SUMMARY.md");
-fs.writeFileSync("./src/SUMMARY.md",summary.join("\n"));
+console.log('Creating SUMMARY.md');
+fs.writeFileSync('./src/SUMMARY.md', summary.join('\n'));
