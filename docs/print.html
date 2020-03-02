@@ -414,7 +414,7 @@
 <h3><a class="header" href="#アンチパターン-5" id="アンチパターン-5">アンチパターン</a></h3>
 <ul>
 <li>スケジュールのバッファ（緩衝期間）を全体計画に対して25%以上確保していない。</li>
-<li>機能要件のバッファ(緩衝機能)を全体計画に対して設けており、「必須な機能」と「あったらよい機能」を分類しているか。</li>
+<li>機能要件のバッファ(緩衝機能)を全体計画に対して設けられていない。(「必須な機能」と「あったらよい機能」が分類されず、曖昧になっている。)</li>
 <li>相対見積もりによって得られたベロシティの数値自体を、生産性の指標にしており、数値的なコミットメントや改善が要求されている。</li>
 </ul>
 <h1><a class="header" href="#チーム-07-ふりかえり習慣" id="チーム-07-ふりかえり習慣">[チーム 07] ふりかえり習慣</a></h1>
@@ -1315,21 +1315,6 @@
 
         </div>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         
