@@ -1,4 +1,4 @@
-<p align="center"><a href="https://raw.githubusercontent.com/cto-a/dxcriteria/master/src/image/logomark-subtitled.png" target="_blank" rel="noopener noreferrer"><img width="250" src="https://raw.githubusercontent.com/cto-a/dxcriteria/master/src/image/logomark-subtitled.png" alt="Vue logo"></a><br /><br /></p>
+<p align="center"><a href="https://cto-a.github.io/dxcriteria/" target="_blank" rel="noopener noreferrer"><img width="250" src="https://raw.githubusercontent.com/cto-a/dxcriteria/master/src/image/logomark-subtitled.png" alt="Vue logo"></a><br /><br /></p>
 
 <p align="center"> 「２つのDX」とデジタル時代の経営ガイドライン </p>
 
