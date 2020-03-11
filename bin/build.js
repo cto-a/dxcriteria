@@ -8,11 +8,7 @@ var THEMA_MAP = {
 	corporate: 'コーポレート'
 };
 
-/*
-
-*/
-var checkList = require('../checklist.json');
-
+var checkList = require('../dxcriteria.json');
 var summary = [ '# Summary', String(fs.readFileSync('./src/index.md')) ];
 
 Object.keys(checkList).forEach((themeKey) => {

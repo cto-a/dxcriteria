@@ -1,0 +1,11 @@
+{
+    "rules": {
+        "preset-ja-technical-writing": {
+            "max-kanji-continuous-len": {
+                max: 7,
+                // "倍精度浮動小数点数"という単語は例外として無視します
+                allow: ["情報子会社問題"]
+            }
+        }
+    }
+}
