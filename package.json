@@ -8,12 +8,14 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "npm run build:md && npm run build:book",
-    "build:md" : "node ./bin/build.js",
-    "build:book":"mdbook build"
+    "build": "npm run build:md && npm run build:book",
+    "build:md": "node ./bin/build.js",
+    "build:book": "mdbook build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "textlint": "^11.6.3",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.3"
   }
 }
