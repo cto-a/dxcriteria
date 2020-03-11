@@ -17,3 +17,4 @@ git-repository-url = "https://github.com/cto-a/dxcriteria"
 
 [output.html.search]
 enable = false
+
