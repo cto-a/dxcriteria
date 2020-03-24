@@ -4,7 +4,7 @@ FROM ubuntu:latest
 RUN apt-get -y update && apt-get -y upgrade
 
 # install basic packages
-RUN apt-get install -y sudo wget bzip2
+RUN apt-get install -y sudo wget bzip2 unzip
 RUN apt-get install vim -y
 
 ###install anaconda3
@@ -22,6 +22,14 @@ ENV PATH /opt/anaconda3/bin:$PATH
 # update pip and conda
 RUN pip install --upgrade pip
 RUN pip install janome
+
+# termextract
+# http://gensen.dl.itc.u-tokyo.ac.jp/pytermextract/#2
+RUN wget http://gensen.dl.itc.u-tokyo.ac.jp/soft/pytermextract-0_01.zip && \
+    unzip pytermextract-0_01.zip && \
+    cd pytermextract-0_01/ && \
+    python /opt/pytermextract-0_01/setup.py install && \
+    rm -rf pytermextract-0_01*
 
 WORKDIR /
 RUN mkdir /work
