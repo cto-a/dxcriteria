@@ -1,1 +1,1 @@
-console.log('hello');
+location.href = "https://dxcriteria.cto-a.org";
