@@ -12,5 +12,5 @@
     "build:book": "mdbook build"
   },
   "author": "CTOA",
-  "license": "CC BY SA 4.0",
+  "license": "CC BY SA 4.0"
 }
